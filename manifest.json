@@ -6,7 +6,7 @@
   "description": "Debug Primo Service Window",
   "background": "debug.html",
   "permissions": [
-    "tabs"
+    "tabs",
     "activeTab"
   ],
   "browser_action": {
