@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+
+  // Called when the user clicks on the browser action.
+  chrome.browserAction.onClicked.addListener(function(tab) {
+
+	 chrome.tabs.create({url:tab.url+'&debug=true'});
+	 
+  });
+</script>
+</head>
+</html>
