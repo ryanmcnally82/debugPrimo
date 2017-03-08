@@ -4,7 +4,7 @@
   "name": "Debug Primo Service Window",
   "version": "0.1",
   "description": "Debug Primo Service Window",
-  "background_page": "debug.html",
+  "background": "debug.html",
   "permissions": [
     "tabs"
   ],
