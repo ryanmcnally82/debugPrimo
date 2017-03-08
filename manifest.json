@@ -2,13 +2,13 @@
   "name": "Debug Primo Service Window",
   "version": "0.1",
   "description": "Debug Primo Service Window",
-  "icons": { "128": "icon_128.png" },
+  "icons": { "bug.png" },
   "background_page": "debug.html",
   "permissions": [
     "tabs"
   ],
   "browser_action": {
-    "default_icon": "icon_128.png",
+    "default_icon": "bug.png",
     "default_title": "Debug Primo Service Window"
   }
 }
