@@ -4,12 +4,14 @@
   "name": "Debug Primo Service Window",
   "version": "0.1",
   "description": "Debug Primo Service Window",
-  "background": "background.html",
+  "background": "debug.html",
   "permissions": [
     "tabs"
+    "activeTab"
   ],
   "browser_action": {
     "default_icon": "bug.png",
     "default_title": "Debug Primo Service Window"
+    "default_popup": "debug.html"
   }
 }
