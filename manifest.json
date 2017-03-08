@@ -2,7 +2,6 @@
   "name": "Debug Primo Service Window",
   "version": "0.1",
   "description": "Debug Primo Service Window",
-  "icons": { "bug.png" },
   "background_page": "debug.html",
   "permissions": [
     "tabs"
